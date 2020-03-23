@@ -1,6 +1,6 @@
 == Initiatives
 
-The following initiatives (including standards and projects) were investigate for the purpose of extracting patterns and best practices to build the Health Spatial Data Infrastructure.
+The following initiatives (including standards and projects) were investigated for the purpose of extracting patterns and best practices to build the Health Spatial Data Infrastructure. These are examples that may provide input into an OGC-standards based apporach to develop an SDI. 
 
 [#geo-Task-eo-health]
 === GEO Task US-09-01a Critical Earth Observations Priorities for Health Societal Benefit
@@ -32,7 +32,17 @@ The project started on February 1, 2010 and ended on May 31, 2013 with results p
 [#cgdi]
 === CGDI
 
-The http://www.nrcan.gc.ca/earth-sciences/geomatics/canadas-spatial-data-infrastructure/10783[Canadian Geospatial Data Infrastructure (CGDI)] implements a framework for data sharing and data integration by using standard based technologies. It has adopted many specifications addressed by the OGC, the Federal Geographic Data Committee (FGDC), the World Wide Web Consortium (W3C), and the ISO/TC211 standards committee on Geographic Information/Geomatics in describing, publishing, visualizing, accessing and manipulating geospatial resources, such as Catalog services interface, Web Map Service (WMS), Styled Layer Descriptor (SLD), Web Feature Service (WFS), and Web Processing Service (WPS) among others. These services can be chained together to implement complex tasks by defining a workflow, as was done in a pandemic simulation in 2007 funded by GeoConnections and the U.S. Geological Survey (USGS).
+The http://www.nrcan.gc.ca/earth-sciences/geomatics/canadas-spatial-data-infrastructure/10783[Canadian Geospatial Data Infrastructure (CGDI)] implements a framework for data sharing and data integration by using standard based technologies. It has adopted many specifications addressed by the OGC, the Federal Geographic Data Committee (FGDC), the World Wide Web Consortium (W3C), and the ISO/TC211 standards committee on Geographic Information/Geomatics in describing, publishing, visualizing, accessing and manipulating geospatial resources, such as Catalog services interface, Web Map Service (WMS), Styled Layer Descriptor (SLD), Web Feature Service (WFS), and Web Processing Service (WPS) among others. These services can be chained together to implement complex tasks by defining a workflow, as was done in a chronic respiratory illness outcomes mapping, environmental health mapping, and pandemic simulation conducted in 2007 by the New Brunswich Lung Association and funded by GeoConnections and the U.S. Geological Survey (USGS).  
+
+Reference: 
+Towards Web-based representation and processing of health information 
+https://ij-healthgeographics.biomedcentral.com/track/pdf/10.1186/1476-072X-8-3
+ 
+Geospatial Services for Decision Support on Public Health 
+https://www.isprs.org/proceedings/XXXVII/congress/8_pdf/14_ThS-20/02.pdf
+ 
+Geospatial Web Services and Applications for Infectious Disease Surveillance
+https://www.witpress.com/elibrary/wit-transactions-on-the-built-environment/110/20691
 
 The collaboration between different governmental entities ensure interoperability for the CDGI. The GeoConnection program’s http://publications.gc.ca/collections/collection_2016/rncan-nrcan/M104-8-2012-eng.pdf[3 phases], listed below, were completed as of 2015: 
 
@@ -40,7 +50,7 @@ The collaboration between different governmental entities ensure interoperabilit
 2.	Evolve and Expand – focused on promoting the CGDI among user communities
 3.	Integrate and Sustain – developed the CGDI’s policies and procedures and addressing sustainability.  
 
-In https://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/downloade.web&search1=R=297880[2015], an assessment was done to see how the CDGI presented data to various government agencies. The finding determined that there was an increased use in the CDGI but with only an 80% implementation success rate. The goal was to implement it to a full 100% success rate. In https://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/downloade.web&search1=R=314606[2018], another study was conducted to establish improvement potential to the CGDI. The results presented that many organizations where not using complete CGDI services. Going forward, many organizations will develop a workflow to incorporate CGDI into their data infrastructure.
+In https://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/downloade.web&search1=R=297880[2015], an assessment was done to see how the CDGI presented data to various government agencies. The finding determined that there was an increased use in the CDGI but with only an 80% implementation success rate. The goal was to implement it to a full 100% success rate. In https://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/downloade.web&search1=R=314606[2018], another study was conducted to establish improvement potential to the CGDI. The results presented that many organizations where not using complete CGDI services. Going forward, many organizations will need to develop a workflow to incorporate CGDI into their data infrastructure.
 
 
 [#inspire-health-specs]
@@ -79,3 +89,7 @@ The https://www.nlm.nih.gov/healthit/snomedct/[Systematized Nomenclature of Medi
 ===  UMLS
 The https://www.nlm.nih.gov/research/umls/[Unified Medical Language System (UMLS)] provides controlled vocabularies for biomedical information and health records. Useful applications build with UMLS can enable linking of records (via codes or terms) between doctor's, care centers, pharmacies, and insurance companies.
 
+
+Numerous additional initiatives exsits that can provide valuabel input towards the creation of Health SDI. While an exaustive list in not possible, the following are worth consideration:
+
+HL7 https://www.hl7.org
