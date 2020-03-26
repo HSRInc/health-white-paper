@@ -1,6 +1,6 @@
 == Summary
 
-This Health Spatial Data Infrastructure white paper provides a discussion about the collection, exchange, integration, analysis, and visualization of health and non-health data to support health applications. Applications that address health issues at global and population level scale as well as at the local, individual patient scale. This paper identifies opportunities to advance OGC Standards towards building a framework to support Health Spatial Data Infrastructures (SDIs).
+This Health Spatial Data Infrastructure white paper provides a discussion about the collection, exchange, integration, analysis, and visualization of health and non-health data to support health applications. Applications that address health issues at global and population level scale as well as at the local, individual patient scale are presented. This paper identifies opportunities to advance OGC Standards towards building a framework to support Health Spatial Data Infrastructures (SDIs).
 
 Developing a Health SDI based on open standards will help health data users and other stakeholders in the following ways:
 
@@ -28,6 +28,7 @@ The paper builds on contributions from OGC Health DWG members and is informed by
 * Health in the Smart City
 * Disaster Resilience
 * Global Indicators
+* Pandemic Response
 
 ===	Document contributor contact points
 
@@ -40,7 +41,7 @@ All questions regarding this document should be directed to the editor or the co
 |Luis Bermudez | OGC
 |Eddie Oldfield | Spatial Quest
 |Scott Serich | OGC
-|Ajay K Gupta | HSR.health
+|Ajay K Gupta | HSR\textit{.health}
 |====================
 
 
